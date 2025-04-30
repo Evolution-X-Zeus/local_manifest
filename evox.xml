@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote fetch="https://git.mainlining.org" name="mainlining" revision="lineage-22.2" />
+
+  <!-- Device trees -->
+  <project name="Evolution-X-Zeus/android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="github" revision="lineage-22.2" clone-depth="1" />
+  <project name="Evolution-X-Zeus/device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="github" revision="vic" clone-depth="1" />
+
+  <!-- Kernel trees -->
+  <project name="Evolution-X-Zeus/android_kernel_xiaomi_sm8450" path="kernel/xiaomi/sm8450" remote="github" revision="lineage-22.2" clone-depth="1" />
+  <project name="Evolution-X-Zeus/android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="github" revision="lineage-22.2" clone-depth="1" />
+  <project name="Evolution-X-Zeus/android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="github" revision="lineage-22.2" clone-depth="1" />
+
+  <!-- Miui Camera -->
+  <project name="Evolution-X-Zeus/device_xiaomi_miuicamera-zeus" path="device/xiaomi/miuicamera-zeus" remote="github" revision="fifteen" clone-depth="1" />
+  <project name="Evolution-X-Zeus/android_vendor_xiaomi_miuicamera-zeus" path="vendor/xiaomi/miuicamera-zeus" remote="mainlining" revision="15" clone-depth="1" />
+
+  <!-- Proprietary Vendor trees -->
+  <project name="Evolution-X-Zeus/proprietary_vendor_xiaomi_zeus" path="vendor/xiaomi/zeus" remote="mainlining" revision="lineage-22.2" clone-depth="1" />
+  <project name="Evolution-X-Zeus/vendor_xiaomi_sm8450-common" path="vendor/xiaomi/sm8450-common" remote="github" revision="vic" clone-depth="1" />
+
+  <!-- Xiaomi common hardware -->
+  <project name="Evolution-X-Zeus/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="vic" clone-depth="1" />
+
+  <!-- Dolby Atmos -->
+  <project name="Evolution-X-Zeus/hardware_dolby" path="hardware/dolby" remote="github" revision="15" />
+  
+</manifest>
