@@ -14,7 +14,7 @@ repo init -u https://github.com/Evolution-XYZ/manifest -b vic --git-lfs
 
 ## Let's sync zeus specific trees!
 ```bash
-git clone https://github.com/kaustuv90/local_manifests.git -b evox-15 .repo/local_manifests
+git clone https://github.com/Evolution-X-Zeus/local_manifest.git .repo/local_manifests
 ```
 
 ## Sync up
