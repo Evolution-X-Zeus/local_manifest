@@ -13,7 +13,7 @@
   <project name="Evolution-X-Zeus/android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="github" revision="lineage-22.2" clone-depth="1" />
 
   <!-- Miui Camera -->
-  <project name="Evolution-X-Zeus/device_xiaomi_miuicamera-zeus" path="device/xiaomi/miuicamera-zeus" remote="github" revision="fifteen" clone-depth="1" />
+  <project name="Evolution-X-Zeus/device_xiaomi_miuicamera-zeus" path="device/xiaomi/miuicamera-zeus" remote="github" revision="15" clone-depth="1" />
   <project name="Evolution-X-Zeus/android_vendor_xiaomi_miuicamera-zeus" path="vendor/xiaomi/miuicamera-zeus" remote="mainlining" revision="15" clone-depth="1" />
 
   <!-- Proprietary Vendor trees -->
