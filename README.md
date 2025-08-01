@@ -9,7 +9,7 @@ LineageOS wiki covers everything necessary for setting up build environment. Ple
 
 ## Initialize local repository
 ```
-repo init -u https://github.com/Evolution-XYZ/manifest -b vic --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
 ```
 
 ## Let's sync zeus specific trees!
@@ -40,7 +40,7 @@ _Note: If the cherry-pick command failed due to conflict, you may want to resolv
 
 - Lunch a target
 ```bash
-lunch lineage_zeus-bp1a-userdebug
+lunch lineage_zeus-bp2a-user
 ```
 
 - To start compiling
