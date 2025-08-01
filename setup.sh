@@ -6,17 +6,15 @@ source "vendor/lineage/build/envsetup.sh";
 
 # hardware/qcom-caf/sm8450/audio/pal
 changes=(
-419838 # PayloadBuilder: Populate key vector for ultrasound RX
-424480 # WIP implement ultrasound rampdown support
-425541 # Implement speaker protection profiles
-#417192 # WIP add support for awinic speaker
+#424480 # Implement ultrasound notify msg support
+#425541 # Implement speaker protection profiles
 )
-repopick -f -P hardware/qcom-caf/sm8450/audio/pal ${changes[@]}&
+#repopick -f -P hardware/qcom-caf/sm8450/audio/pal ${changes[@]}&
 
 # hardware/qcom-caf/sm8450/audio/primary-hal
 changes=(
-419581 # hal: Add ultrasound proximity support
+#430997 # UltrasoundProximity: Implement ramp down support
 )
-repopick -f -P hardware/qcom-caf/sm8450/audio/primary-hal ${changes[@]}&
+#repopick -f -P hardware/qcom-caf/sm8450/audio/primary-hal ${changes[@]}&
 
 wait
